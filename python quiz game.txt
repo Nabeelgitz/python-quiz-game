@@ -1,0 +1,37 @@
+list = ["what is the unit of frequecy", "what is the unit of time", "what is the unit of mass", "what is the unit of electric current", "what is the unit of electric potential",]
+count = 0
+print("          *****WELCOME TO QUIZ*****")
+print("      YOU HAVE TO ANSWER THE QUESTIONS")
+print(" INSTRUCTION-YOUR ANSWER IS CASE SENSITIVE")
+print("----------------------------------------------------")
+print("Q.1 =", list[0])
+print("OPTION - hz , sec , kg , amp , volt")
+ans1 = input("enter your answer: ")
+if ans1 == "hz":
+  count = 1
+print("----------------------------------------------------")
+print("Q.2 =", list[1])
+print("OPTION - hz , sec , kg , amp , volt")
+ans2 = input("enter your answer: ")
+if ans2 == "sec":
+  count = count+1
+print("----------------------------------------------------")
+print("Q.3 =", list[2])
+print("OPTION - hz , sec , kg , amp , volt")
+ans3 = input("enter your answer: ")
+if ans3 == "kg":
+  count = count+1
+print("----------------------------------------------------")
+print("Q.4 =", list[3])
+ans4 = input("enter your answer: ")
+print("OPTION- hz , sec , kg , amp , volt")
+if ans4 == "amp":
+  count = count+1
+print("----------------------------------------------------")
+print("Q.5 =", list[4])
+print("OPTION - hz , sec , kg , amp , volt")
+ans5 = input("enter your answer: ")
+if ans5 == "volt":
+  count = count+1
+print("----------------------------------------------------")
+print("YOUR SCORE IS", count)
